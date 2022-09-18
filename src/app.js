@@ -366,4 +366,7 @@ app.post("/checkout",async(req, res) => {
       });
 
 
-      app.listen(3000,() => {"server is listening to 3000 port"});
+//       app.listen(3000,() => {"server is listening to 3000 port"});
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+});
