@@ -1,0 +1,23 @@
+{
+  "name": "databases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js -e hbs,js,css,json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.0.10",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "js-alert": "^1.0.4",
+    "mongoose": "^5.12.9",
+    "nodemon": "^2.0.7",
+    "popup": "^0.0.3",
+    "popups": "^1.1.3"
+  }
+}
