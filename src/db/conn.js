@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect("mongodb://localhost:27017/regdb").then(()=>{
+mongoose.connect("mongodb+srv://furniturexd:1234@cluster0.moei87j.mongodb.net/?retryWrites=true&w=majority").then(()=>{
 console.log("connection established");
 
 }).catch(()=>{
