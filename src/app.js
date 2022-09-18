@@ -3,7 +3,7 @@ const app = express();
 require('./db/conn.js');
 const hbs= require('hbs');
 var MongoClient = require('mongodb').MongoClient;
-var url1 = "mongodb://localhost:27017/login";
+var url1 = "mongodb+srv://furniturexd:1234@cluster0.moei87j.mongodb.net/?retryWrites=true&w=majority";
 app.use(express.static('public'));
 const path = require('path');
 const register=require('./models/regdetails.js');
